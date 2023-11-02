@@ -1662,31 +1662,32 @@ footer .address .img img{
     nav {
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
         padding: 5px 10px;
         margin-top: -20px;
+        padding-top: 20px;
     }
     nav .site-name span{
-        font-size: 8px;
-        font-weight: 700;
-        opacity: 0.8;
-        transition: all 0.2s;
+        font-size: 0px;
+        display: none;
     }
     nav .site-name span:hover{
         opacity: 1;
     }
     nav .meno {
         display: flex;
+        margin-right: 10%;
     }
     nav .meno ul li {
         display: inline-flex;
         align-items: center;
-        margin-right: 1px;
+        margin-right: 3px;
+        margin-left: 3px;
     }
     nav .meno ul li a{
-        font-size:  8px;
+        font-size:  15px;
         font-weight: 600;
-        color: #00000096;
+        color: #000000;
         transition: all 0.3s;
     }
     nav .meno ul li a:hover{
@@ -1696,6 +1697,7 @@ footer .address .img img{
     nav .meno ul img{
         width: 8px;
         transition: all 0.3s;
+        display: none;
     }
     nav .meno ul img:hover{
         margin-left: 3px;
@@ -1772,7 +1774,8 @@ footer .address .img img{
     }
     main .slaider .text p{
         font-weight: 700;
-        font-size: 9px;
+        font-size: 13px;
+        margin-bottom: 20px;
     }
     main .slaider .img{
         display: flex;
@@ -1780,7 +1783,7 @@ footer .address .img img{
         align-items: center;
     }
     main .slaider .img img{
-        width: 60px;
+        width: 70px;
         margin-left: 5px;
         margin-right: 5px;
     }
