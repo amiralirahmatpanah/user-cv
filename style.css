@@ -1702,26 +1702,32 @@ footer .address .img img{
     }
     header {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         margin-top: 26px;
+        flex-direction: column;
+        align-items: center;
     }
     header .text {
-        text-align: justify;
+        order: 2;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     header .text h1:first-child{
         color: #FF8A56;
-        font-size: 13px;
-        line-height: 5px;
+        font-size: 30px;
+        margin-bottom: -1px;
     }
     header .img img {
-        width: 90px;
+        width: 140px;
     }
     header .text h1{
-        font-size: 13px;
-        line-height: 20px;
+        font-size: 25px;
+        line-height: 30px;
     }
     header .text p{
-        font-size: 9px;
+        font-size: 12px;
         line-height: 15px;
     }
     header .text .button {
@@ -1731,8 +1737,8 @@ footer .address .img img{
     header .text .button .header-first-a{
         color: #fff;
         background: #000;
-        font-size: 9px;
-        padding: 5px 10px;
+        font-size: 12px;
+        padding: 7px 14px;
         border-radius: 5px;
         margin-right: 5px;
         transition: all 0.3s;
@@ -1742,13 +1748,13 @@ footer .address .img img{
     }
     header .text .button a{
         color: #000;
-        font-size: 10px;
+        font-size: 14px;
         transition: all 0.3s;
         padding: 3px 6px;
         border-radius: 1px;
     }
     header .text .button img{
-        width: 10px;
+        width: 15px;
         margin-left: 3px;
         transition: all 0.1s;
     }
@@ -1780,6 +1786,9 @@ footer .address .img img{
     }
     main .papagraf{
         margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     main .papagraf .text-b{
         display: flex;
@@ -1830,7 +1839,7 @@ footer .address .img img{
         list-style-type: square;
     }  
     main .slaider-picher{
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 200px;
