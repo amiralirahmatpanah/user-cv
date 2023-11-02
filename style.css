@@ -1685,7 +1685,7 @@ footer .address .img img{
         margin-left: 3px;
     }
     nav .meno ul li a{
-        font-size:  15px;
+        font-size:  12px;
         font-weight: 600;
         color: #000000;
         transition: all 0.3s;
@@ -1847,6 +1847,7 @@ footer .address .img img{
         align-items: center;
         margin-top: 200px;
     }
+
     main .slaider-picher .slaider-1 img{
         width: 200px;
         height: 130px;
